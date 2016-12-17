@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="daixiansen.customdemo.MainActivity">
+
+    <daixiansen.customdemo.HorizontalProgress
+        android:id="@+id/hp_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#EBEE0C"
+        android:max="100"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:progress="0"
+        app:progress_reach_color="#ff0000"
+        app:progress_unreach_color="#90ff0000" />
+
+
+    <daixiansen.customdemo.HorizontalProgress
+        android:id="@+id/progress_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:max="100"
+        android:progress="0"
+        app:progress_reach_color="#0A1CF7"
+        app:progress_text_color="#1B2AD9"
+        app:progress_text_offset="10dp"
+        app:progress_text_size="15sp"
+        app:progress_unreach_color="#500A1CF7" />
+
+
+
+    <daixiansen.customdemo.RoundProgress
+        android:id="@+id/progress_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:max="100"
+        android:progress="0"
+        app:progress_radius="20dp"
+        app:progress_reach_color="#0A1CF7"
+        app:progress_text_color="#1B2AD9"
+        app:progress_text_size="15sp"
+        app:progress_unreach_color="#508c8d8f" />
+
+
+</LinearLayout>
